@@ -6,5 +6,5 @@
 
 #grid-parent {
   display: grid;
-  grid-template-columns: repeat(var(--col-number), 1fr);
+  grid-template-columns: repeat(var(--col-number), minmax(0, 1fr));
 }
