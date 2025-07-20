@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+:root {
+  --col-number: 1;
+}
+
+#grid-parent {
+  display: grid;
+  grid-template-columns: repeat(var(--col-number), 1fr);
+}
